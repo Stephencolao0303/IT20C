@@ -28,11 +28,11 @@ console.log(output);
 
 */
 
-arr=[1,2,3];
+arr=[4,2,3];
 output = " ";
-index = 1;
+index = 0;
 
-while(index <= arr.length){
+while(index <= arr.length -1){
     output += index + " ";
     index++;
 }
